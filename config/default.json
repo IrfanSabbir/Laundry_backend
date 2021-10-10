@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://dbridgman:Password1!@subscriptions.woxfa.mongodb.net/Subscription?retryWrites=true&w=majority",
+  "jwtSecret": "secret1234"
+}

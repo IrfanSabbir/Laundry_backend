@@ -1,0 +1,34 @@
+{
+  "name": "arena-laundry",
+  "version": "1.0.0",
+  "description": "Laundry Service",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "clientinstall": "npm install --prefix client",
+    "dev": "concurrently \"npm run server\" \" npm run client\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbridgman1/Laundry.git"
+  },
+  "author": "Drew Bridgman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dbridgman1/Laundry/issues"
+  },
+  "homepage": "https://github.com/dbridgman1/Laundry#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
